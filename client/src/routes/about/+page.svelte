@@ -59,6 +59,10 @@
 						after February 17th.
 					</p>
 					<p>
+						The code is open sourced on <a href="https://github.com/bersling/sveltepuzzle">Github</a
+						>.
+					</p>
+					<p>
 						You can reach out at <a href="mailto:daniel.r.niederberger@gmail.com"
 							>daniel.r.niederberger@gmail.com</a
 						> for feedback, I'd love to hear from you!
