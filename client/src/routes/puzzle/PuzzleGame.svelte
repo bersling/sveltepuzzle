@@ -71,11 +71,8 @@
 				touchMode
 			});
 		}
-
-		// TODO: clone the node
 	};
 
-	// OPTIMIZE: consider some code sharing between match and puzzle here
 	const onTouchmove = (e: TouchEvent | MouseEvent) => {
 		// For mousemove, this is attached to the outer component to prevent that the mouse can be moved outside of the element when dragging fast.
 		// Theoretically we have the same issue for mouseup, but there it should not be as much of a problem.
@@ -98,12 +95,9 @@
 
 			target.style.transform = `translateX(${deltaX}px) translateY(${deltaY}px)`;
 			target.style.zIndex = '2';
-
-			// TODO: perform swapping if necessary
 		}
 	};
 
-	// OPTIMIZE: consider some code sharing between match and puzzle here
 	const onTouchend = (tile: Tile) => (e: TouchEvent | MouseEvent) => {
 		const touch = extractTouch(e);
 		const identifier = extractIdentifier(touch);

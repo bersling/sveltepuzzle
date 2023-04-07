@@ -1,5 +1,6 @@
 {
-  "name": "toddler-games",
+  "name": "sveltepuzzle",
+  "private": "true",
   "version": "1.0.0",
   "description": "# Licenses for assets",
   "main": "",
