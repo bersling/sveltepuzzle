@@ -5,7 +5,6 @@ export enum Sound {
 	CLICK = 'CLICK',
 	WIN_WOHOO = 'WIN_WOHOO',
 	WIN_PIANO = 'WIN_PIANO',
-	WIN_BLIPBLUPBLIP = 'WIN_BLIPBLUPBLIP',
 	WIN_BIUING = 'WIN_BIUING',
 	WRONG = 'WRONG',
 	SCRATCH = 'SCRATCH',
@@ -60,11 +59,6 @@ export async function playSound(sound: Sound) {
 	}
 }
 
-export const gameFinishedSounds = [
-	Sound.WIN_PIANO,
-	Sound.WIN_WOHOO,
-	Sound.WIN_BLIPBLUPBLIP,
-	Sound.WIN_BIUING
-];
+export const gameFinishedSounds = [Sound.WIN_PIANO, Sound.WIN_WOHOO, Sound.WIN_BIUING];
 
 export const basicSounds = [...gameFinishedSounds, Sound.CLICK];

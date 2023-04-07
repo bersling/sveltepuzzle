@@ -26,6 +26,11 @@
 			valueTitle: 'Mobile App:',
 			valueDescription:
 				"As a web dev, I want to leverage those skills to develop apps, also for iOS and Android. This repo shows how it's done with capacitor. I've also tried tauri mobile alpha, but found capacitor to be more out of the box and good enough for this project!"
+		},
+		{
+			valueTitle: 'DRY:',
+			valueDescription:
+				"Don't repeat yourself and generate anything repetitive! Check out the soure code."
 		}
 	];
 </script>
@@ -36,15 +41,10 @@
 			<div class="main-section-wrapper">
 				<div class="section main-section">
 					<img src="/toddlers/toddler.svg" class="icon" />
+					<h3>Svele Puzzle!</h3>
 					<p>
-						Svele Puzzle!
-						<br />
-						I made a small game for Svelte Hack 2023.
-						<br />
-						It shows some cool things you can do with svelte.
-						<br />
-						It's based on games I made for <a href="toddler-games.com">toddler-games.com</a>, but
-						only with parts developed after February 17th.
+						I made a small game for Svelte Hack 2023. It shows some cool things you can do with
+						svelte.
 					</p>
 					<div class="value-bullets">
 						{#each valueBullets as valueBullet}
@@ -52,6 +52,11 @@
 							<div class="description">{valueBullet.valueDescription}</div>
 						{/each}
 					</div>
+					<p>
+						It's based on games I made for
+						<a href="https://toddler-games.com">toddler-games.com</a>, but only with parts developed
+						after February 17th.
+					</p>
 					<p>
 						You can reach out at <a href="mailto:daniel.r.niederberger@gmail.com"
 							>daniel.r.niederberger@gmail.com</a
@@ -61,7 +66,7 @@
 			</div>
 			<div class="section" style="background: {hueByCategoryLight(Category.PUZZLE)}">
 				<img src="./assets/puzzle-icon/04-fox.jpg" class="icon" />
-				<h3>Puzzle</h3>
+				<h3>Why play puzzles?</h3>
 				<ul>
 					<li>
 						<b>Cognitive skills:</b> Playing puzzles requires problem-solving and critical thinking skills,
@@ -103,6 +108,9 @@
 	@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 	.wrapper {
 		font-family: 'Open Sans', sans-serif;
+		flex-direction: column;
+		max-width: 800px;
+		margin: auto;
 	}
 
 	.section {
@@ -121,7 +129,11 @@
 	.value-bullets {
 		display: grid;
 
-		grid-template-columns: 200px 1fr;
+		grid-template-columns: 1fr 2fr;
+
+		@media (min-width: 500px) {
+			grid-template-columns: 170px 1fr;
+		}
 
 		gap: 10px;
 
@@ -133,15 +145,6 @@
 
 	.main-section-wrapper {
 		background: white;
-	}
-
-	.main-section {
-		// background-color: white;
-		// background-image: url('/img/background-pattern-color.svg');
-		// background-size: 300px;
-		// background-repeat: repeat;
-		// border: 1px solid #eee;
-		background-color: #fbfbfb;
-		border: 1px solid #eee;
+		border-radius: 10px;
 	}
 </style>
