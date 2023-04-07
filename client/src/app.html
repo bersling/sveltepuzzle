@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		%sveltekit.head%
+
+		<!-- OPTIMIZE: we only need this on the match -->
+		<script src="%sveltekit.assets%/DragDropTouch.js"></script>
+
+		<script>
+			// Disable pinch to zoom
+			// https://stackoverflow.com/a/52201924/3022127
+			document.addEventListener('gesturestart', function (e) {
+				e.preventDefault();
+			});
+
+			document.addEventListener('gesturechange', function (e) {
+				e.preventDefault();
+			});
+
+			document.addEventListener('gestureend', function (e) {
+				e.preventDefault();
+			});
+		</script>
+		
+
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
