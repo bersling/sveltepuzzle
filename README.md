@@ -1,6 +1,9 @@
-# Getting set up for development
+# Sveltepuzzle
 
-When checking this out for the first time it's a bit of a pain to get going:
+![](https://github.com/sveltepuzzle/sveltehack-trailer1.gif)
+
+## Getting set up for development
+
 
 ```
 nvm use 16
@@ -9,5 +12,3 @@ cd client && npm ci && cd ..
 npm start
 npm run convert
 ```
-
-Iterate a bit between convert and start since they have some chicken-eggy dependencies...
