@@ -5,10 +5,12 @@ import { Difficulty } from './models';
 const defaultDifficulty = Difficulty.TODDLER;
 const localStorageKey = 'DIFFICULTY';
 
-function getFromLocalStorageOrDefault(): Difficulty {
+function getFromLocalStorageOrDefault(): Difficulty | null {
 	if (browser) {
 		return (localStorage?.getItem(localStorageKey) as Difficulty | null) ?? defaultDifficulty;
-	} else return defaultDifficulty;
+	} else {
+		return null;
+	}
 }
 
 export function updateDifficulty(newValue: Difficulty) {
@@ -18,4 +20,4 @@ export function updateDifficulty(newValue: Difficulty) {
 	});
 }
 
-export const difficulty = writable<Difficulty>(getFromLocalStorageOrDefault());
+export const difficulty = writable<Difficulty | null>(getFromLocalStorageOrDefault());

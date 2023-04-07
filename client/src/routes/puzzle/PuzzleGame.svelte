@@ -7,7 +7,7 @@
 	import { height } from '../height.store';
 	import { extractIdentifier, extractTouch, TouchMode, type TouchData } from '../touch';
 	import { gameFinished } from '../finished.store';
-	import { loadSounds, Sound } from '../sound';
+	import { loadSounds, Sound, playSound } from '../sound';
 
 	interface Tile {
 		id: number; // in ascending order, so if ids in tiles is sorted, then the puzzle is solved.
@@ -130,7 +130,7 @@
 				topElement.dispatchEvent(customEvent);
 			} else {
 				// going back to origin
-				// playSound(Sound.SWOOSH);
+				playSound(Sound.SWOOSH);
 			}
 			// cleaning up the data, otherwise we get a memory leak
 			touchDataMap.delete(identifier);
@@ -151,7 +151,7 @@
 		const droppedOnSelf = draggedItem.id === dropTarget.id;
 
 		if (!droppedOnSelf) {
-			// playSound(Sound.BLOP);
+			playSound(Sound.BLOP);
 			const indexOfDragged = tiles.indexOf(draggedItem);
 			const indexOfDropTarget = tiles.indexOf(dropTarget);
 			[tiles[indexOfDragged], tiles[indexOfDropTarget]] = [
@@ -163,7 +163,7 @@
 			isFinished = isSortedAscending(tiles.map((tile) => tile.id));
 			gameFinished.set(isFinished);
 		} else {
-			// playSound(Sound.SWOOSH);
+			playSound(Sound.SWOOSH);
 			// nothing to do
 		}
 	};

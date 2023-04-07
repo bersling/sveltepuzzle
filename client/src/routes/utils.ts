@@ -16,7 +16,11 @@ export function pickRandomElement<T>(arr: T[]): T {
 
 export function filterByDifficulty<T extends CategoryItem>(
 	categories: T[],
-	difficulty: Difficulty
+	difficulty: Difficulty | null
 ): T[] {
-	return categories.filter((cat) => !cat.difficulty || cat.difficulty === difficulty);
+	const difficultyLoaded = difficulty != null;
+	return categories.filter((cat) => {
+		const doShow = !cat.difficulty || cat.difficulty === difficulty;
+		return difficultyLoaded && doShow;
+	});
 }
