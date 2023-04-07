@@ -1,6 +1,6 @@
 # Sveltepuzzle
 
-![](https://github.com/sveltepuzzle/sveltehack-trailer1.gif)
+![](https://github.com/bersling/sveltepuzzle/blob/master/sveltehack-trailer1.gif)
 
 ## Getting set up for development
 
