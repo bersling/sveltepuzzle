@@ -1,10 +1,12 @@
 <script lang="ts">
 	import PageWithNav from './PageWithNav.svelte';
+	import { TouchMode } from './touch';
 
 	export let parent: string | null = null;
+	export let touchMode: TouchMode = TouchMode.CLICK_ONLY;
 </script>
 
-<PageWithNav {parent}>
+<PageWithNav {parent} {touchMode}>
 	<div class="padded-content">
 		<slot />
 	</div>

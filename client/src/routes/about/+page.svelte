@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Category, hueByCategoryLight } from '../models';
 	import PaddedPageWithNav from '../PaddedPageWithNav.svelte';
+	import { TouchMode } from '../touch';
 
 	const valueBullets = [
 		{
@@ -35,7 +36,7 @@
 	];
 </script>
 
-<PaddedPageWithNav parent="/">
+<PaddedPageWithNav parent="/" touchMode={TouchMode.SCROLLABLE}>
 	<div class="wrapper">
 		<div>
 			<div class="main-section-wrapper">
