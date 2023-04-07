@@ -2,6 +2,10 @@
 
 ![](https://github.com/bersling/sveltepuzzle/blob/master/sveltehack-trailer1.gif)
 
+## Demo
+
+https://sveltepuzzle.toddler-games.com/
+
 ## Getting set up for development
 
 
