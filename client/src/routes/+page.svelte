@@ -9,7 +9,6 @@
 	import { TouchMode } from './touch';
 	import { filterByDifficulty } from './utils';
 
-	const currentYear = new Date().getFullYear();
 	const isNative = Capacitor.isNativePlatform();
 
 	const categories: CategoryItem[] = [
@@ -70,7 +69,7 @@
 			</div>
 			{#if !isNative}
 				<div class="impressum cute-font">
-					(c) Daniel Niederberger, {currentYear}, <a href="/about">About</a>
+					(c) Daniel Niederberger, SvelteHack 2023, <a href="/about">About</a>
 				</div>
 			{/if}
 		</div>
@@ -97,5 +96,10 @@
 		padding: 10px;
 		color: #555;
 		font-family: 'Annie Use Your Telescope', cursive;
+		color: white;
+
+		a {
+			color: white;
+		}
 	}
 </style>

@@ -43,8 +43,9 @@
 						<br />
 						It shows some cool things you can do with svelte.
 						<br />
-						It's based on games I made for <a href="toddler-games.com">toddler-games.com</a>, but
-						only with parts developed after February 17th.
+						It's based on games I made for
+						<a href="https://toddler-games.com">toddler-games.com</a>, but only with parts developed
+						after February 17th.
 					</p>
 					<div class="value-bullets">
 						{#each valueBullets as valueBullet}
@@ -133,15 +134,6 @@
 
 	.main-section-wrapper {
 		background: white;
-	}
-
-	.main-section {
-		// background-color: white;
-		// background-image: url('/img/background-pattern-color.svg');
-		// background-size: 300px;
-		// background-repeat: repeat;
-		// border: 1px solid #eee;
-		background-color: #fbfbfb;
-		border: 1px solid #eee;
+		border-radius: 10px;
 	}
 </style>
