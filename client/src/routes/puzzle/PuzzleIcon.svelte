@@ -5,8 +5,6 @@
 	export let numCols: number;
 	export let numRows: number;
 
-	export let isAlternative: boolean = false; // slightly shuffle for front page icon
-
 	interface Tile {
 		id: number;
 		imageRow: number;
@@ -20,10 +18,6 @@
 			for (let j = 0; j < numCols; j++) {
 				tiles.push({ imageRow: i, imageCol: j, id: counter++ });
 			}
-		}
-		if (isAlternative && numCols * numRows === 16) {
-			[tiles[11], tiles[10]] = [tiles[10], tiles[11]];
-			[tiles[15], tiles[14]] = [tiles[14], tiles[15]];
 		}
 		tiles = [...tiles];
 	});

@@ -1,5 +1,3 @@
-import { Sound } from './sound';
-
 export interface CategoryItem {
 	link: string;
 	jpg: string | null;

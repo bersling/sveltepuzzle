@@ -34,6 +34,8 @@
 			<Nav {parent} />
 		</div>
 	{/if}
+	<!-- Useful for mobile debugging,
+		if you want to write debug results directly into the DOM instead of accessing the console -->
 	<!-- <Debugger /> -->
 	<div
 		id="scrollable"

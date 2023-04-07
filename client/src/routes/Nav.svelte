@@ -14,9 +14,6 @@
 	>
 		<BackIcon size={backIconSize} />
 	</a>
-	<!-- <a href="/about" class="nav-button nav-button-right">
-		<InfoIcon size={iconSize} />
-	</a> -->
 </div>
 
 <style>
