@@ -27,11 +27,14 @@ npx cap add android
 - Create or choose a signing key. Make sure to store all credentials somewhere in a safe place, including the used alias.
 - Click on `locate` in the notifications to open in finder, should be under `app > release > app-release.aab`
 - Create an account or sign in at `Google Play Console`: https://play.google.com/console
+- Verify your ID 🙄
 - Pay 25 bucks 🙄
 - In side nav go to `Release` > `Testing` > `Internal testing` and then click the `Create new release` button
 - Upload the `app-release.abb`
-- You can now install the app on your phone throw play store
--
+- You can now install the app on your phone throw play store!
+- For new builds bump the `versionCode` and `versionName` variables in in the gradle file `sveltepuzzle/client/android/app/build.gradle`
+- Answer ONE THOUSAND MILLION QUESTIONS AND QUESTIONNAIRES
+- Add TEN THOUSAND SCREENSHOTS
 
 ## TODO
 

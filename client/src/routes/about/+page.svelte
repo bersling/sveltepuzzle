@@ -63,6 +63,10 @@
 						>.
 					</p>
 					<p>
+						Privacy statement: The app uses no cookies and doesn't collect any data from you. Only a
+						couple of settings are stored in your browsers local storage.
+					</p>
+					<p>
 						You can reach out at <a href="mailto:daniel.r.niederberger@gmail.com"
 							>daniel.r.niederberger@gmail.com</a
 						> for feedback, I'd love to hear from you!
