@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
 	appId: 'com.toddlergames.sveltepuzzle',
-	appName: 'Svelte Puzzle for SvelteHack 23',
+	appName: 'Svuzzle',
 	webDir: 'build',
 	bundledWebRuntime: false
 };
