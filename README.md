@@ -1,4 +1,4 @@
-# Sveltepuzzle
+# Svelte Puzzle
 
 ![](https://github.com/sveltepuzzle/sveltehack-trailer1.gif)
 
