@@ -50,80 +50,10 @@ And to sync code changes into the ios and android projects do a `npm run capsync
 - Safari has a pretty neat sync between iOS devices and the safari browser on the local dev machine inspector over wifi. Just need to set it up with a couple of clicks. Instructions [here](https://www.youtube.com/watch?v=o4ZmD7asfpQ).
 - Puppeteer is a great way to create thumbnail images of something. That way you can use your web & css skills to create things like icons and then convert to jpg format with puppeteer! See [icongenerator5000](./generators/icongenerator5000.ts).
 
-================= TODO: improve below ==================
-
-## Getting set up for development
-
-```
-nvm use 16
-npm ci
-cd client && npm ci && cd ..
-npm start
-npm run convert
-```
-
-### iOS
-
-Done for you already:
-
-```
-npx cap add ios
-```
-
-BOOM! iOS app.
-
-`Info.plist` was enhanced with
-
-```
-	<key>ITSAppUsesNonExemptEncryption</key>
-	<false/>
-```
-
-, see https://stackoverflow.com/questions/45855629/export-compliance-in-ios-app-submission
-
-Open in Xcode:
-
-```
-npx cap open ios
-```
-
-## Android
-
-Creating an android app with capacitor is dead easy. Here are the steps you need to do.
-
-### Step 1: Local Dev
-
-```
-cd client
-npx cap add android
-```
-
-- Open android studio on the created `android` folder
-- Set up a testing device to test your release locally
-
-### Step 2: First build for internal testers
-
-- Run `build` > `Generate Signed Bundle / APK`
-- Create or choose a signing key. Make sure to store all credentials somewhere in a safe place, including the used alias.
-- Click on `locate` in the notifications to open in finder, should be under `app > release > app-release.aab`
-- Create an account or sign in at `Google Play Console`: https://play.google.com/console
-- Let your ID be verified, can take around 24h
-- Pay 25 bucks at some point
-- In sidenav go to `Release` > `Testing` > `Internal testing` and then click the `Create new release` button
-- Upload the `app-release.abb`
-- You can now install the app on your phone throw play store!
-- For new builds bump the `versionCode` and `versionName` variables in in the gradle file `sveltepuzzle/client/android/app/build.gradle`
-
-### Step 3: Going public
-
-- Answer ONE THOUSAND MILLION QUESTIONS AND QUESTIONNAIRES
-- Add TEN THOUSAND SCREENSHOTS (best way to create them: to be researched)
-
 ## TODO
 
 Before the Svelte Hack submission deadlines, here are some things I'd like to get done:
 
-- Only one package.json instead of two
-- Publish android release 😱
-- Improve readme
-- Start ios release?
+- Android and iOS release 🤞
+- Improve readmes
+- Cleanup
