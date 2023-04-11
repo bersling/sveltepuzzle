@@ -67,11 +67,10 @@
 					<div class="item-wrapper"><IconLink {item} /></div>
 				{/each}
 			</div>
-			{#if !isNative}
-				<div class="impressum cute-font">
-					(c) Daniel Niederberger, SvelteHack 2023, <a href="/about">About</a>
-				</div>
-			{/if}
+
+			<div class="impressum cute-font">
+				(c) Daniel Niederberger, SvelteHack 2023{#if !isNative}, <a href="/about">About</a>{/if}
+			</div>
 		</div>
 	</div>
 </PageWithNav>
