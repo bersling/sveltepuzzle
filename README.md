@@ -1,6 +1,6 @@
 # Svelte Puzzle
 
-Svelte Puzzle is a simple puzzle game built with Svelte.
+Svelte Puzzle is a simple puzzle game built with Svelte for SvelteHack 2023.
 
 ## Why Svelte Puzzle?
 
