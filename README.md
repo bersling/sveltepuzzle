@@ -16,6 +16,22 @@ npm start
 npm run convert
 ```
 
+### iOS
+
+Done for you already:
+
+```
+npx cap add ios
+```
+
+BOOM! iOS app.
+
+Open in Xcode:
+
+```
+npx cap open ios
+```
+
 ## Android
 
 Creating an android app with capacitor is dead easy. Here are the steps you need to do.
