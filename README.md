@@ -4,7 +4,7 @@ Svelte Puzzle is a simple puzzle game built with Svelte.
 
 ## Why Svelte Puzzle?
 
-To show web devs how they can leverage their web skills how to build cool mobile apps, I've created svelte puzzle. It's based on games I've built for [toddler-games.com](https://toddler-games.com), so it's optimized for mobile and also available in Google Play Store and on iOS App Store.
+To show web devs how to leverage web skills for mobile apps, I've created svelte puzzle. It's based on games I've built for [toddler-games.com](https://toddler-games.com), so it's optimized for mobile and also available in Google Play Store and on iOS App Store.
 
 ## Demo 🚀
 
