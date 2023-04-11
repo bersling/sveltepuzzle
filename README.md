@@ -31,6 +31,16 @@ To run and build the android version, install Android Studio and open the `andro
 
 To run and build the ios version, you need Xcode and then run `npx cap open ios`.
 
+## Local Development
+
+All useful commands are encoded in the `package.json`, but here's how to get started:
+
+```
+npm ci
+npm start
+```
+
+And to sync code changes into the ios and android projects do a `npm run capsync`.
 
 ================= TODO: improve below ==================
 

@@ -7,7 +7,7 @@
     "sourceMap": true
   },
   "files": [
-    "puzzle-convert.ts",
-    "icongenerator5000.ts"
+    "generators/puzzle-convert.ts",
+    "generators/icongenerator5000.ts"
   ]
 }
