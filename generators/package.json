@@ -1,0 +1,13 @@
+{
+	"name": "sveltepuzzle-generator",
+	"private": true,
+	"version": "1.0.0",
+	"scripts": {
+		"generate": "npx ts-node puzzle-convert.ts"
+	},
+	"devDependencies": {
+		"typescript": "^4.9.4",
+		"sharp": "^0.31.3",
+		"ts-node": "^10.9.1"
+	}
+}
