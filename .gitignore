@@ -1,9 +1,5 @@
-.idea
-node_modules
-.env
 .DS_Store
-.nvm
-
+node_modules
 /build
 /.svelte-kit
 /package
