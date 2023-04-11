@@ -14,7 +14,8 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
-		"scss-to-json": "scss-to-json ./src/styles/app.scss > ./src/routes/scss-vars.ts"
+		"scss-to-json": "scss-to-json ./src/styles/app.scss > ./src/routes/scss-vars.ts",
+		"generate": "npm run generate --prefix ./generators"
 	},
 	"dependencies": {
 		"@capacitor/android": "^4.6.2",
