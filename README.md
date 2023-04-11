@@ -1,18 +1,22 @@
 # Svelte Puzzle
 
-![](https://github.com/bersling/sveltepuzzle/blob/master/sveltehack-trailer1.gif)
-
-## Demo 🚀
-
-https://sveltepuzzle.toddler-games.com/
+Svelte Puzzle is a simple puzzle game built with Svelte.
 
 ## Why Svelte Puzzle?
 
-Svelte Puzzle is a simple game built with Svelte. It's based on games I've built for [toddler-games.com](https://toddler-games.com), so it's optimized for mobile and also available in Google Play Store and on iOS App Store. I thought the biggest impact would have to show fellow devs to show how easy it is to build a mobile app with `Svelte + Capacitor`.
+To show web devs how they can leverage their web skills how to build cool mobile apps, I've created svelte puzzle. It's based on games I've built for [toddler-games.com](https://toddler-games.com), so it's optimized for mobile and also available in Google Play Store and on iOS App Store.
+
+## Demo 🚀
+
+- **Web**: https://sveltepuzzle.toddler-games.com/
+- **Android**: [Play Store](https://play.google.com/store/apps/details?id=com.toddlergames.sveltepuzzle)
+- **iOS**: [App Store](https://testflight.apple.com/join/A13bnoZD)
+
+![](https://github.com/bersling/sveltepuzzle/blob/master/sveltehack-trailer1.gif)
 
 ## Svelte + Capacitor = ❤️
 
-I played with different `Web -> Mobile` solutions and found that Capacitor is best to get started. Unlike some other frameworks, it really works out of the box with a couple of simple commands. Like this you can build a mobile app with Svelte in no time!
+I tried different `Web -> Mobile` solutions and found that Capacitor is best to get started. Unlike some other frameworks, it really works out of the box with a couple of simple commands. Like this you can build a mobile app with Svelte in no time!
 
 In this repo, the initial commands from capcitor have already been run, but if you want to get started in your own svelte project it's really as easy as:
 
@@ -29,7 +33,7 @@ BOOM💥, you now have mobile apps. More info on initial setup here https://capa
 
 To run and build the android version, install Android Studio and open the `android` folder.
 
-To run and build the ios version, you need Xcode and then run `npx cap open ios`.
+To run and build the iOS version, you need Xcode and then run `npx cap open ios`.
 
 ## Local Development
 
@@ -40,11 +44,11 @@ npm ci
 npm start
 ```
 
-Youe need at least node v16.
+You need at least node v16.
 
-And to sync code changes into the ios and android projects do a `npm run capsync`.
+To sync code changes into the iOS and Android projects do a `npm run capsync`.
 
-## Awesome tips
+## Awesome tips 😎
 
 - The fastest way to test changes on mobile devices is with [ngrok](https://ngrok.com/). You can create a tunnel/link to your local machine and then test in the web browser of any device.
 - Safari has a pretty neat sync between iOS devices and the safari browser on the local dev machine inspector over wifi. Just need to set it up with a couple of clicks. Instructions [here](https://www.youtube.com/watch?v=o4ZmD7asfpQ).
