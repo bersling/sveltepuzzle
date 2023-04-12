@@ -15,7 +15,8 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"scss-to-json": "scss-to-json ./src/styles/app.scss > ./src/routes/scss-vars.ts",
-		"generate": "npm run generate --prefix ./generators"
+		"generate": "npm run generate --prefix ./generators",
+		"resources": "npx capacitor-resources -p ios --icon ./artwork/mobile/export/app-icon.1024.png --splash ./artwork/mobile/export/splash.png"
 	},
 	"dependencies": {
 		"@capacitor/android": "^4.6.2",
