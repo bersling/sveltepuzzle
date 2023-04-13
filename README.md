@@ -1,16 +1,26 @@
 # Svelte Puzzle
 
-Svelte Puzzle is a simple puzzle game built with Svelte for SvelteHack 2023.
-
-## Why Svelte Puzzle?
-
-To show web devs how to leverage web skills for mobile apps, I've created svelte puzzle. It's based on games I've built for [toddler-games.com](https://toddler-games.com), so it's optimized for mobile and also available in Google Play Store and on iOS App Store.
+Svelte Puzzle is a simple puzzle game built with Svelte for SvelteHack 2023. It shows how Svelte can be used together with Capacitor to build mobile apps for iOS and Android. I even went as far as to release the app to the actual Google Play Store (Android) and iOS App Store and document the process.
 
 ## Demo 🚀
 
-- **Web**: https://sveltepuzzle.toddler-games.com/
-- **Android**: [Play Store](https://play.google.com/store/apps/details?id=com.toddlergames.sveltepuzzle)
-- **iOS**: [App Store](https://testflight.apple.com/join/A13bnoZD)
+### Web
+
+https://sveltepuzzle.toddler-games.com/
+
+### Android
+
+<a href="https://play.google.com/store/apps/details?id=com.toddlergames.sveltepuzzle">
+  <img src="./badge-android.png" width="250">
+</a>
+
+### iOS
+
+<a href="ttps://testflight.apple.com/join/A13bnoZD">
+  <img src="./badge-ios.png" width="250">
+</a>
+
+### Gif
 
 ![](https://github.com/bersling/sveltepuzzle/blob/master/sveltehack-trailer1.gif)
 
@@ -34,6 +44,10 @@ BOOM💥, you now have mobile apps. More info on initial setup here https://capa
 To run and build the android version, install Android Studio and open the `android` folder.
 
 To run and build the iOS version, you need Xcode and then run `npx cap open ios`.
+
+Below you find the link to a youtube video I created on those steps.
+
+[![Youtube video about Svelte + Capacitor](https://img.youtube.com/vi/rlNms8xoLXo/0.jpg)](https://www.youtube.com/watch?v=rlNms8xoLXo)
 
 ## Local Development
 
@@ -59,5 +73,5 @@ To sync code changes into the iOS and Android projects do a `npm run capsync`.
 Before the Svelte Hack submission deadlines, here are some things I'd like to get done:
 
 - Android and iOS release 🤞
-- Improve readmes
+- Improve readmes. Specifically more images, e.g. svelte and capacitor logos are mandatory!
 - Cleanup
