@@ -16,7 +16,7 @@ https://sveltepuzzle.toddler-games.com/
 
 ### iOS
 
-<a href="ttps://testflight.apple.com/join/A13bnoZD">
+<a href="https://testflight.apple.com/join/A13bnoZD">
   <img src="./badge-ios.png" width="250">
 </a>
 
