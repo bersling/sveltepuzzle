@@ -20,18 +20,18 @@
 	.nav {
 		display: flex;
 		justify-content: space-between;
+
+		padding-top: env(safe-area-inset-top);
+        padding-right: env(safe-area-inset-right);
+        padding-bottom: env(safe-area-inset-bottom);
+        padding-left: env(safe-area-inset-left);
 	}
 	.nav-button {
-		position: absolute;
 		border-radius: 50%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		background: transparent;
-	}
-	.nav-button-left {
-		top: 0;
-		left: 0;
 	}
 	.finished {
 		animation-duration: 1.5s;
