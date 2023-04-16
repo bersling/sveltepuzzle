@@ -58,7 +58,7 @@ Below you find the link to a youtube video I created on those steps.
 
 You need at least node v16.
 
-## Initial Setup
+### Initial Setup
 
 ```
 npm ci
