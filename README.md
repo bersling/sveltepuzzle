@@ -66,6 +66,8 @@ I've encoded this in `setup.sh` you can run it like so:
 ./setup.sh
 ```
 
+The app is backgrounded and expected to run at port 5173, so make sure not to have another svelte app running before starting the setup. And make sure you know how to kill apps running on certain ports, because it's backgrounded.
+
 Feel free to check out the code before running it!
 
 ### Syncing chagnes from web to mobile
