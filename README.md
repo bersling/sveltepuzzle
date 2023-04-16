@@ -69,4 +69,4 @@ To sync code changes into the iOS and Android projects do a `npm run capsync`.
 
 ## Awesome tips & tricks 😎
 
-I've learnt a lot building this project and I like to share. Here are a couple of awesome tips & tricks I've learnt along the way: [Awesome tips & tricks](./AWESOME.md)
+I've learnt a lot building this project and I like to share. Here are a couple of awesome tips & tricks I've learnt along the way: [Awesome tips & tricks](./AWESOME.md) .
