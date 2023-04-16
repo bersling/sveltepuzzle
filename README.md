@@ -27,7 +27,7 @@ https://sveltepuzzle.toddler-games.com/
 
 ### Gif
 
-![](https://github.com/bersling/sveltepuzzle/blob/master/sveltehack-trailer1.gif)
+![](./artwork/readme-assets/trailer.v2.gif)
 
 ## Svelte + Capacitor = ❤️
 
