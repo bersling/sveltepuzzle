@@ -5,33 +5,19 @@
 
 	const valueBullets = [
 		{
-			valueTitle: 'Building games:',
-			valueDescription: 'Svelte is performant enough to build games!'
+			valueTitle: 'Mobile App:',
+			valueDescription:
+				"As a web dev, I want to leverage my web skills to release apps for iOS and Android. Svelte Puzzle shows how to do this with Capacitor."
 		},
 		{
 			valueTitle: 'Drag & drop:',
 			valueDescription:
-				"We all know it. The default HTML5 dragdrop api is... not that great. So I've worked on a better drag and drop."
-		},
-		{
-			valueTitle: 'Toddler friendly:',
-			valueDescription:
-				"It's quite cool to have toddler testers. They do things you'd never expect such as having 4 fingers at the same time on a tablet. The drag and drop accounts for that since the browsers default for handling multi touch is... not very toddler friendly."
+				"The default HTML5 drag and drop implementation is not suitable for touch devices. The custom drag and drop implementation of Svelte Puzzle is built to even account for multi-touch."
 		},
 		{
 			valueTitle: 'AI Art:',
 			valueDescription:
 				'Might be controversial. But using AI generated art is a fast and easy way to get something cool. All images for the puzzles were generated with Dall-E or midjourney.'
-		},
-		{
-			valueTitle: 'Mobile App:',
-			valueDescription:
-				"As a web dev, I want to leverage those skills to develop apps, also for iOS and Android. This repo shows how it's done with capacitor. I've also tried tauri mobile alpha, but found capacitor to be more out of the box and good enough for this project!"
-		},
-		{
-			valueTitle: 'DRY:',
-			valueDescription:
-				"Don't repeat yourself and generate anything repetitive! Check out the soure code."
 		}
 	];
 </script>
@@ -44,7 +30,7 @@
 					<img src="/toddlers/toddler.svg" class="icon" />
 					<h3>Svelte Puzzle</h3>
 					<p>
-						I made a small game for Svelte Hack 2023. It shows some cool things you can do with
+						I made a small puzzle game for Svelte Hack 2023. It shows some cool things you can do with
 						svelte.
 					</p>
 					<div class="value-bullets">
