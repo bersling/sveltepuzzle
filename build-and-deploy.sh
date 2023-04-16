@@ -11,7 +11,7 @@ export NVM_DIR=~/.nvm;
 source $NVM_DIR/nvm.sh;
 nvm use 16
 
-npm run build --prefix client
+npm run build
 
 DEPLOY_TARGET="$1"
 
@@ -26,8 +26,8 @@ else
   exit 0
 fi
 
-aws s3 sync client/build "$CLOUDFRONT_S3_BUCKET" --size-only --profile "$SVELTEPUZZLE_PROFILE" # --cache-control max-age=86400,public
-# aws s3 cp client/build "$CLOUDFRONT_S3_BUCKET" --profile "$SVELTEPUZZLE_PROFILE" --recursive # --cache-control max-age=86400,public
+aws s3 sync build "$CLOUDFRONT_S3_BUCKET" --size-only --profile "$SVELTEPUZZLE_PROFILE" # --cache-control max-age=86400,public
+# aws s3 cp build "$CLOUDFRONT_S3_BUCKET" --profile "$SVELTEPUZZLE_PROFILE" --recursive # --cache-control max-age=86400,public
 
 aws cloudfront create-invalidation --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" --profile "$SVELTEPUZZLE_PROFILE" --paths "/*"
 

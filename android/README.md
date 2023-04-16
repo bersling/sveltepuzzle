@@ -5,7 +5,6 @@ Creating an android app with capacitor is dead easy. Here are the steps you need
 ### Step 1: Local Dev
 
 ```
-cd client
 npx cap add android
 ```
 
