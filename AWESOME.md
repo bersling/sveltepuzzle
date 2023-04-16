@@ -11,3 +11,4 @@
 - Also check out [./src/app.html](./src/app.html) and [./src/styles/app.scss](./src/styles/app.scss). They also include some essential code for making it feel like an app on mobile.
 - If you're coming from web development, learning that you cannot immediately redeploy when you have a bug, but first need to wait for approval from Apple or Google is something you have to get used to.
 - On iOS, make sure that your app doesn't overlap with things like Battery Charging Status. You can achieve this with (https://developer.mozilla.org/en-US/docs/Web/CSS/env)
+- The [./build-and-deploy.sh](./build-and-deploy.sh) is something I've used for years. It looks like many devs in the hackathon struggled to host their projects. I usually use AWS Cloudfront for hosting, if you have some experience with AWS, this is certainly a good solution to host static pages, like for example those built with Svelte Kit SSG!
