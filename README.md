@@ -5,7 +5,7 @@
 
 Svelte Puzzle is a puzzle game built with Svelte for SvelteHack 2023. It shows how Svelte can be used together with Capacitor to build mobile apps for iOS and Android.
 
-The game is officially available on the App Store for iOS and Google Play Store for Android, see below.
+The game is officially available on App Store for iOS and Google Play Store for Android, see below.
 
 ## Demo 🚀
 
