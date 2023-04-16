@@ -56,14 +56,19 @@ Below you find the link to a youtube video I created on those steps.
 
 ## Local Development
 
-All useful commands are encoded in the `package.json`, but here's how to get started:
-
-```
-npm ci
-npm start
-```
-
 You need at least node v16.
+
+The initial setup is unfortunately a bit tricky, since first some images need to be generated and for them to be generated the app needs to be running. I could commit the images, but that's also not that elegant.
+
+I've encoded this in `setup.sh` you can run it like so:
+
+```
+./setup.sh
+```
+
+Feel free to check out the code before running it!
+
+### Syncing chagnes from web to mobile
 
 To sync code changes into the iOS and Android projects do a `npm run capsync`.
 
