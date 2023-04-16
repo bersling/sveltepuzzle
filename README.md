@@ -58,7 +58,7 @@ Below you find the link to a youtube video I created on those steps.
 
 You need at least node v16.
 
-## Initial Setup
+### Initial Setup
 
 ```
 npm ci
@@ -67,7 +67,7 @@ npm start
 
 Note: I chose to commit a lot of generated files, so the project can be started this easily. I thought an easy setup was more valuable than being too purist on the "don't commit generated files" dogma.
 
-### Syncing chagnes from web to mobile
+### Syncing changes from web to mobile
 
 To sync code changes into the iOS and Android projects do a `npm run capsync`.
 
