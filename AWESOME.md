@@ -7,7 +7,7 @@
 - If you want to publish an app to iOS App Store / Google Play store, plan at least a weak in for the review process.
 - If you upload apps to "App Store Connect" (apples platform for devs to release apps), and uploads fail without much information (just saying ERROR), reupload again with a tool called "Transporter". It gives more detailed error messages.
 - I'm quite happy that I published "Svelte Puzzle" as my first apps for iOS and Android. It's much better to get some experience with the releasing rather than going for a release of a "big app" that's important to you right away!
-- This is my code for handling touch `./src/routes/touch.ts`. It is an essential ingredient of making a web app compatible for a mobile release.
-- Also check out `./src/app.html` and `./src/styles/app.scss`. They also include some essential code for making it feel like an app on mobile.
+- This is my code for handling touch [./src/routes/touch.ts](./src/routes/touch.ts) . It is an essential ingredient of making a web app compatible for a mobile release.
+- Also check out [./src/app.html](./src/app.html) and [./src/styles/app.scss](./src/styles/app.scss). They also include some essential code for making it feel like an app on mobile.
 - If you're coming from web development, learning that you cannot immediately redeploy when you have a bug, but first need to wait for approval from Apple or Google is something you have to get used to.
 - On iOS, make sure that your app doesn't overlap with things like Battery Charging Status. You can achieve this with (https://developer.mozilla.org/en-US/docs/Web/CSS/env)
