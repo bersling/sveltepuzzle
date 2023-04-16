@@ -58,6 +58,8 @@ Below you find the link to a youtube video I created on those steps.
 
 You need at least node v16.
 
+## Initial Setup
+
 The initial setup is unfortunately a bit tricky, since first some images and files need to be generated and for them to be generated the app needs to be running. I could commit the images, but that's also not that elegant.
 
 I've encoded this in `setup.sh` you can run it like so:
