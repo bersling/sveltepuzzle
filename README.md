@@ -1,17 +1,17 @@
 # Svelte Puzzle
 
-Svelte Puzzle is a simple puzzle game built with Svelte for SvelteHack 2023. It shows how Svelte can be used together with Capacitor to build mobile apps for iOS and Android. I even went as far as to release the app to the actual Google Play Store (Android) and iOS App Store and document the process.
+<img src="./artwork/readme-assets/app-icon.rounded.256.png" align="right"
+     alt="Svelte Puzzle Logo" width="128" height="128">
+
+Svelte Puzzle is a puzzle game built with Svelte for SvelteHack 2023. It shows how Svelte can be used together with Capacitor to build mobile apps for iOS and Android.
+
+The game is officially available on App Store for iOS and Google Play Store for Android, see below.
 
 ## Demo 🚀
 
 ### Web
 
-<a href="https://sveltepuzzle.toddler-games.com/">
-  <img src="./artwork/readme-assets/app-icon.rounded.256.png"
-     alt="Svelte Puzzle Logo" width="128" height="128">
-<br/>
 https://sveltepuzzle.toddler-games.com/
-</a>
 
 ### Android
 
@@ -27,7 +27,7 @@ https://sveltepuzzle.toddler-games.com/
 
 ### Gif
 
-![](https://github.com/bersling/sveltepuzzle/blob/master/sveltehack-trailer1.gif)
+![](./artwork/readme-assets/trailer.v2.gif)
 
 ## Svelte + Capacitor = ❤️
 
@@ -44,7 +44,7 @@ npx cap add android
 npx cap add ios
 ```
 
-BOOM💥, you now have mobile apps. More info on initial setup here https://capacitorjs.com/docs/getting-started.
+BOOM💥, you now have mobile apps. The only thing left to do for a Svelte app built with Svelte Kit and SSG is change `dist` to `build` in `capacitor.config.ts`.
 
 To run and build the android version, install Android Studio and open the `android` folder.
 
