@@ -9,3 +9,4 @@
 - I'm quite happy that I published "Svelte Puzzle" as my first apps for iOS and Android. It's much better to get some experience with the releasing rather than going for a release of a "big app" that's important to you right away!
 - This is my code for handling touch `./src/routes/touch.ts`. It is an essential ingredient of making a web app compatible for a mobile release.
 - Also check out `./src/app.html` and `./src/styles/app.scss`. They also include some essential code for making it feel like an app on mobile.
+- If you're coming from web development, learning that you cannot immediately redeploy when you have a bug, but first need to wait for approval from Apple or Google is something you have to get used to.
