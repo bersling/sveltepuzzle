@@ -60,17 +60,12 @@ You need at least node v16.
 
 ## Initial Setup
 
-The initial setup is unfortunately a bit tricky, since first some images and files need to be generated and for them to be generated the app needs to be running. I could commit the images, but that's also not that elegant.
-
-I've encoded this in `setup.sh` you can run it like so:
-
 ```
-./setup.sh
+npm ci
+npm start
 ```
 
-The app is backgrounded and expected to run at port 5173, so make sure not to have another svelte app running before starting the setup. And make sure you know how to kill apps running on certain ports, because it's backgrounded.
-
-Feel free to check out the code before running it!
+Note: I chose to commit a lot of generated files, so the project can be started this easily. I thought an easy setup was more valuable than being too purist on the "don't commit generated files" dogma.
 
 ### Syncing chagnes from web to mobile
 

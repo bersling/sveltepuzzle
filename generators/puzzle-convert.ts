@@ -26,8 +26,8 @@ async function convertFile(
 		writeSvelteFile(filename, numCols, numRows);
 
 		if (filename === 'racoon') {
-			await writeIconFile(filename, numCols, numRows, true); // generate icon for root page
-			await writeIcon(filename, true);
+			await writeIconFile(filename, numCols, numRows); // generate icon for root page
+			await writeIcon(filename);
 		}
 
 		await writeIconFile(filename, numCols, numRows); // generate icon for /puzzle
@@ -116,6 +116,7 @@ function writeSvelteFile(filename: string, numCols: number, numRows: number) {
 
 function getIconComponent(filename: string, numCols: number, numRows: number) {
 	return `<script lang="ts">
+	// THIS FILE IS GENERATED
 	import PuzzleIcon from '../../PuzzleIcon.svelte';
 
 	const imageSrcRoot = '/assets/puzzle/${filename}';
@@ -130,6 +131,7 @@ function getIconComponent(filename: string, numCols: number, numRows: number) {
 
 function getSvelteComponent(filename: string, numCols: number, numRows: number) {
 	return `<script lang="ts">
+	// THIS FILE IS GENERATED
 	import PuzzleGame from '../PuzzleGame.svelte';
 
 	const imageSrcRoot = '/assets/puzzle/${filename}';
@@ -142,8 +144,8 @@ function getSvelteComponent(filename: string, numCols: number, numRows: number) 
 }
 
 function generateItemsForOverviewPage(files: string[]) {
-	return `
-  export const PUZZLE_PAGES = [
+	return `// THIS FILE IS GENERATED
+export const PUZZLE_PAGES = [
     ${files.map((file) => {
 			const filenameWithoutExtension = file.split('.jpg')[0];
 			return `{
