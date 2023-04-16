@@ -84,14 +84,9 @@ function genericErrorHandler(err: any) {
 	if (err) return console.error(err);
 }
 
-function writeIconFile(
-	filename: string,
-	numCols: number,
-	numRows: number,
-	isAlternative: boolean = false
-): Promise<void> {
+function writeIconFile(filename: string, numCols: number, numRows: number): Promise<void> {
 	return new Promise((resolve, reject) => {
-		const fileContent = getIconComponent(filename, numCols, numRows, isAlternative);
+		const fileContent = getIconComponent(filename, numCols, numRows);
 		const pageDir = `../src/routes/puzzle/${filename}/icon`;
 		fs.mkdirSync(pageDir, { recursive: true });
 		fs.writeFileSync(`${pageDir}/+page.svelte`, fileContent, 'utf8', genericErrorHandler);
@@ -99,13 +94,13 @@ function writeIconFile(
 	});
 }
 
-function writeIcon(filename: string, isAlternative: boolean = false): Promise<void> {
+function writeIcon(filename: string): Promise<void> {
 	return new Promise(async (resolve, reject) => {
 		const quality = 20;
 		await convertUrlToIcon(
 			`puzzle/${filename}/icon`,
 			`../static/assets/puzzle-icon`,
-			filename + (isAlternative ? '-alt' : ''), // add `-alt` to differentiate icons
+			filename,
 			quality
 		);
 		resolve();
@@ -119,22 +114,16 @@ function writeSvelteFile(filename: string, numCols: number, numRows: number) {
 	fs.writeFile(`${pageDir}/+page.svelte`, fileContent, 'utf8', genericErrorHandler);
 }
 
-function getIconComponent(
-	filename: string,
-	numCols: number,
-	numRows: number,
-	isAlternative: boolean
-) {
+function getIconComponent(filename: string, numCols: number, numRows: number) {
 	return `<script lang="ts">
 	import PuzzleIcon from '../../PuzzleIcon.svelte';
 
 	const imageSrcRoot = '/assets/puzzle/${filename}';
 	const numCols = ${numCols};
 	const numRows = ${numRows};
-  const isAlternative = ${isAlternative.toString()};
 </script>
 
-<PuzzleIcon {imageSrcRoot} {numRows} {numCols} {isAlternative} />
+<PuzzleIcon {imageSrcRoot} {numRows} {numCols} />
 
 `;
 }
