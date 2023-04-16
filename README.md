@@ -44,7 +44,7 @@ npx cap add android
 npx cap add ios
 ```
 
-BOOM💥, you now have mobile apps. More info on initial setup here https://capacitorjs.com/docs/getting-started.
+BOOM💥, you now have mobile apps. The only thing left to do for a Svelte app built with Svelte Kit and SSG is change `dist` to `build` in `capacitor.config.ts`.
 
 To run and build the android version, install Android Studio and open the `android` folder.
 
