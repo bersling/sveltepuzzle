@@ -1,5 +1,8 @@
 # Svelte Puzzle
 
+<img src="./readme-assets/app-icon.rounded.256.png" align="right"
+     alt="Size Limit logo by Anton Lovchikov" width="150" height="150">
+
 Svelte Puzzle is a simple puzzle game built with Svelte for SvelteHack 2023. It shows how Svelte can be used together with Capacitor to build mobile apps for iOS and Android. I even went as far as to release the app to the actual Google Play Store (Android) and iOS App Store and document the process.
 
 ## Demo 🚀
@@ -11,13 +14,13 @@ https://sveltepuzzle.toddler-games.com/
 ### Android
 
 <a href="https://play.google.com/store/apps/details?id=com.toddlergames.sveltepuzzle">
-  <img src="./badge-android.png" width="250">
+  <img src="./artwork/readme-assets/badge-android.png" width="250">
 </a>
 
 ### iOS
 
 <a href="https://apps.apple.com/app/svelte-puzzle/id6447557105">
-  <img src="./badge-ios.png" width="250">
+  <img src="./artwork/readme-assets/badge-ios.png" width="250">
 </a>
 
 ### Gif
