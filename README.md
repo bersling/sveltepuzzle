@@ -6,18 +6,23 @@ Svelte Puzzle is a simple puzzle game built with Svelte for SvelteHack 2023. It 
 
 ### Web
 
+<a href="https://sveltepuzzle.toddler-games.com/">
+  <img src="./artwork/readme-assets/app-icon.rounded.256.png"
+     alt="Svelte Puzzle Logo" width="128" height="128">
+<br/>
 https://sveltepuzzle.toddler-games.com/
+</a>
 
 ### Android
 
 <a href="https://play.google.com/store/apps/details?id=com.toddlergames.sveltepuzzle">
-  <img src="./badge-android.png" width="250">
+  <img src="./artwork/readme-assets/badge-android.png" width="250">
 </a>
 
 ### iOS
 
 <a href="https://apps.apple.com/app/svelte-puzzle/id6447557105">
-  <img src="./badge-ios.png" width="250">
+  <img src="./artwork/readme-assets/badge-ios.png" width="250">
 </a>
 
 ### Gif
