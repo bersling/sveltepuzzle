@@ -125,7 +125,6 @@ function getIconComponent(filename: string, numCols: number, numRows: number) {
 </script>
 
 <PuzzleIcon {imageSrcRoot} {numRows} {numCols} />
-
 `;
 }
 
@@ -149,9 +148,9 @@ export const PUZZLE_PAGES = [
     ${files.map((file) => {
 			const filenameWithoutExtension = file.split('.jpg')[0];
 			return `{
-				link: './puzzle/${filenameWithoutExtension}',
-				jpg: '/assets/puzzle-icon/${file}'
-			}`;
+	    link: './puzzle/${filenameWithoutExtension}',
+	    jpg: '/assets/puzzle-icon/${file}'
+    }`;
 		})}
   ]
   `;

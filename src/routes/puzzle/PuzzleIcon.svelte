@@ -25,7 +25,7 @@
 
 <div class="board" id="icon-screenshot" style="--num-cols: {numCols}; --num-rows: {numRows};">
 	{#each tiles as tile}
-		<img src={`${imageSrcRoot}/output_${tile.imageRow}_${tile.imageCol}.jpg`} />
+		<img alt="Puzzle Piece" src={`${imageSrcRoot}/output_${tile.imageRow}_${tile.imageCol}.jpg`} />
 	{/each}
 </div>
 

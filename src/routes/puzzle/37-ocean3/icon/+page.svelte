@@ -8,4 +8,3 @@
 </script>
 
 <PuzzleIcon {imageSrcRoot} {numRows} {numCols} />
-

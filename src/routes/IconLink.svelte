@@ -28,7 +28,7 @@
 			{#if loading}
 				<DoubleBounce color={'#fff'} />
 			{:else}
-				<img src={item.jpg} class="jpg-image" />
+				<img alt="Link Icon" src={item.jpg} class="jpg-image" />
 			{/if}
 		</div>
 	</div>

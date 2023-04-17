@@ -14,7 +14,6 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
-		"scss-to-json": "scss-to-json ./src/styles/app.scss > ./src/routes/scss-vars.ts",
 		"generate": "npm run generate --prefix ./generators"
 	},
 	"dependencies": {
@@ -36,7 +35,6 @@
 		"prettier-plugin-svelte": "^2.8.1",
 		"puppeteer": "^19.7.3",
 		"sass": "^1.57.1",
-		"scss-to-json": "npm:@crocsx/scss-to-json@^3.0.0",
 		"svelte": "^3.54.0",
 		"svelte-check": "^3.0.1",
 		"svelte-loading-spinners": "^0.3.4",
