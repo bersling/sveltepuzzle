@@ -7,12 +7,12 @@
 		{
 			valueTitle: 'Mobile App:',
 			valueDescription:
-				"As a web dev, I want to leverage my web skills to release apps for iOS and Android. Svelte Puzzle shows how to do this with Capacitor."
+				'As a web dev, I want to leverage my web skills to release apps for iOS and Android. Svelte Puzzle shows how to do this with Capacitor.'
 		},
 		{
 			valueTitle: 'Drag & drop:',
 			valueDescription:
-				"The default HTML5 drag and drop implementation is not suitable for touch devices. The custom drag and drop implementation of Svelte Puzzle is built to even account for multi-touch."
+				'The default HTML5 drag and drop implementation is not suitable for touch devices. The custom drag and drop implementation of Svelte Puzzle is built to even account for multi-touch.'
 		},
 		{
 			valueTitle: 'AI Art:',
@@ -27,11 +27,11 @@
 		<div>
 			<div class="main-section-wrapper">
 				<div class="section main-section">
-					<img src="/toddlers/toddler.svg" class="icon" />
+					<img alt="Toddler Icon" src="/toddlers/toddler.svg" class="icon" />
 					<h3>Svelte Puzzle</h3>
 					<p>
-						I made a small puzzle game for Svelte Hack 2023. It shows some cool things you can do with
-						svelte.
+						I made a small puzzle game for Svelte Hack 2023. It shows some cool things you can do
+						with svelte.
 					</p>
 					<div class="value-bullets">
 						{#each valueBullets as valueBullet}
@@ -60,7 +60,7 @@
 				</div>
 			</div>
 			<div class="section" style="background: {hueByCategoryLight(Category.PUZZLE)}">
-				<img src="./assets/puzzle-icon/04-fox.jpg" class="icon" />
+				<img alt="Fox Icon" src="./assets/puzzle-icon/04-fox.jpg" class="icon" />
 				<h3>Why play puzzles?</h3>
 				<ul>
 					<li>

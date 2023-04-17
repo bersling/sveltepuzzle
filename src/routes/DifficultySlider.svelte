@@ -16,10 +16,12 @@
 		<div class="difficulty-selector {$difficulty === Difficulty.PRESCHOOLER ? 'preschooler' : ''}">
 			<img
 				src="/toddlers/toddler.svg"
+				alt="Toddler Icon"
 				class={$difficulty === Difficulty.PRESCHOOLER ? 'hidden' : ''}
 			/>
 			<img
 				src="/toddlers/preschooler.svg"
+				alt="Preschooler Icon"
 				class={$difficulty === Difficulty.TODDLER ? 'hidden' : ''}
 			/>
 		</div>

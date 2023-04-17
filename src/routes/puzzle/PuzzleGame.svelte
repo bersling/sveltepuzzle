@@ -196,6 +196,7 @@
 					draggable={!isFinished}
 				>
 					<img
+						alt="puzzle-piece"
 						src={`${imageSrcRoot}/output_${tile.imageRow}_${tile.imageCol}.jpg`}
 						style="width: {pieceWidth}px; height: {pieceHeight}px; max-width: {pieceMaxWidth}px; max-height: {pieceMaxHeight}px"
 					/>

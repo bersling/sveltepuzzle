@@ -47,7 +47,6 @@
 </div>
 
 <style lang="scss">
-
 	.page-wrapper {
 		background-image: url('/img/background-pattern.svg?v=2');
 		background-size: 300px;
@@ -56,10 +55,9 @@
 		position: relative;
 
 		padding-top: env(safe-area-inset-top);
-        padding-right: env(safe-area-inset-right);
-        padding-bottom: env(safe-area-inset-bottom);
-        padding-left: env(safe-area-inset-left);
-
+		padding-right: env(safe-area-inset-right);
+		padding-bottom: env(safe-area-inset-bottom);
+		padding-left: env(safe-area-inset-left);
 	}
 
 	.page-content {

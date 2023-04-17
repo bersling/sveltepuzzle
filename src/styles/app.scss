@@ -1,50 +1,48 @@
 @import './variable-declarations.scss';
 
-
 html,
 body {
-    margin: 0;
-    overflow: hidden;
-    /* disable scroll to reload, https://stackoverflow.com/a/70579685/3022127 */
-    font-size: 20px;
-    /* Set the base font size to 16px */
+	margin: 0;
+	overflow: hidden;
+	/* disable scroll to reload, https://stackoverflow.com/a/70579685/3022127 */
+	font-size: 20px;
+	/* Set the base font size to 16px */
 }
 
 button {
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
 
 a {
-    color: $text-color;
-    user-select: none;
-    -webkit-user-drag: none;
+	color: $text-color;
+	user-select: none;
+	-webkit-user-drag: none;
 }
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 
-    /* disable text selection (svg icons are also text...) */
-    -webkit-user-select: none;
-    /* Safari */
-    -ms-user-select: none;
-    /* IE 10 and IE 11 */
-    user-select: none;
-    /* Standard syntax */
+	/* disable text selection (svg icons are also text...) */
+	-webkit-user-select: none;
+	/* Safari */
+	-ms-user-select: none;
+	/* IE 10 and IE 11 */
+	user-select: none;
+	/* Standard syntax */
 
-    /* preventing the long press context menu, https://stackoverflow.com/a/56866766/3022127 */
-    -webkit-touch-callout: none !important;
-    -webkit-user-select: none !important;
+	/* preventing the long press context menu, https://stackoverflow.com/a/56866766/3022127 */
+	-webkit-touch-callout: none !important;
+	-webkit-user-select: none !important;
 
-    /* preventing iOS tap highlight */
-    -webkit-tap-highlight-color: transparent;
+	/* preventing iOS tap highlight */
+	-webkit-tap-highlight-color: transparent;
 
-    /* Disable browser handling of all panning and zooming gestures, except for regular scrolling */
-    touch-action: pan-y;
+	/* Disable browser handling of all panning and zooming gestures, except for regular scrolling */
+	touch-action: pan-y;
 }
-
