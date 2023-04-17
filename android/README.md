@@ -26,5 +26,5 @@ npx cap add android
 
 ### Step 3: Going public
 
-- Answer ONE THOUSAND MILLION QUESTIONS AND QUESTIONNAIRES
-- Add TEN THOUSAND SCREENSHOTS (best way to create them: to be researched)
+- Answer questions in all questionnaires
+- Provide required icons
