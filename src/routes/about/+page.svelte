@@ -27,7 +27,7 @@
 		<div>
 			<div class="main-section-wrapper">
 				<div class="section main-section">
-					<img alt="Toddler Icon" src="/toddlers/toddler.svg" class="icon" />
+					<img src="/toddlers/toddler.svg" class="icon" />
 					<h3>Svelte Puzzle</h3>
 					<p>
 						I made a small puzzle game for Svelte Hack 2023. It shows some cool things you can do
@@ -60,7 +60,7 @@
 				</div>
 			</div>
 			<div class="section" style="background: {hueByCategoryLight(Category.PUZZLE)}">
-				<img alt="Fox Icon" src="./assets/puzzle-icon/04-fox.jpg" class="icon" />
+				<img src="./assets/puzzle-icon/04-fox.jpg" class="icon" />
 				<h3>Why play puzzles?</h3>
 				<ul>
 					<li>
