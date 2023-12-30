@@ -74,3 +74,11 @@ To sync code changes into the iOS and Android projects do a `npm run capsync`.
 ## Awesome tips & tricks 😎
 
 I've learnt a lot building this project and I like to share. Here are a couple of awesome tips & tricks I've learnt along the way: [Awesome tips & tricks](./AWESOME.md) .
+
+## Promo
+
+I've also built a couple more games (Memory, Coloring, Match, Spot the Difference, ...) and bundled them up as "Toddler & Preschool Games". So if you're a parent with a kid between 2 and 7, please check it out at:
+
+- Web: https://toddler-games.com/ (Free to play & test)
+- Android: https://play.google.com/store/apps/details?id=com.toddlergames.drn (2$)
+- iOS: https://apps.apple.com/us/app/toddler-preschool-games/id6447790341 (2$)
