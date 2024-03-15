@@ -75,6 +75,10 @@ To sync code changes into the iOS and Android projects do a `npm run capsync`.
 
 I've learnt a lot building this project and I like to share. Here are a couple of awesome tips & tricks I've learnt along the way: [Awesome tips & tricks](./AWESOME.md) .
 
+## Recipe
+
+For getting the latest setup, I'd recommend running this `Svelte Capacitor Recipe`: https://github.com/bersling/svelte-capacitor-recipe.
+
 ## Promo
 
 I've also built a couple more games (Memory, Coloring, Match, Spot the Difference, ...) and bundled them up as "Toddler & Preschool Games". So if you're a parent with a kid between 2 and 7, please check it out at:
